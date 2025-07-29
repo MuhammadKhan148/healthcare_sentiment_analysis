@@ -1,11 +1,8 @@
 # Healthcare Sentiment Analysis
 
-A simple sentiment analysis model for healthcare reviews using NLP and machine learning.
+A sentiment analysis model for healthcare reviews using NLP and machine learning.
 
-## What it does
-- Analyzes healthcare reviews and classifies them as positive, negative, or neutral
-- Uses TF-IDF features and Naive Bayes classifier
-- Includes data preprocessing and model evaluation
+
 
 ## Quick start
 ```bash
@@ -25,4 +22,3 @@ python train_sentiment_model.py
 - Features: TF-IDF vectorization
 - Classes: Positive (1), Negative (0), Neutral (2)
 
-The trained model and vectorizer are saved as `.pkl` files for reuse. 
