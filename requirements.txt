@@ -1,4 +1,10 @@
 pandas
 scikit-learn
 numpy
-joblib 
+joblib
+ucimlrepo
+flask
+flask-cors
+nltk
+matplotlib
+seaborn 
