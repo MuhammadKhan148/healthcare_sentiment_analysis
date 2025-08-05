@@ -1,14 +1,21 @@
-# Model files
-*.pkl
+# Model files (ignore temporary models, but allow trained models)
 *.joblib
 *.h5
 *.hdf5
 
-# Data files
-*.csv
+# Data files (ignore temporary data, but allow important datasets)
 *.json
 *.xlsx
 *.xls
+
+# Allow important model files
+!sentiment_model.pkl
+!tfidf_vectorizer.pkl
+
+# Allow important data files
+!healthcare_reviews.csv
+!healthcare_reviews_processed.csv
+!combined_healthcare_reviews.csv
 
 # Python
 __pycache__/
