@@ -114,4 +114,3 @@ Upload a CSV file with reviews to analyze multiple reviews at once.
 - `frontend/api/index.py` - Flask API backend
 - `frontend/app/page.tsx` - Main React page
 
-The trained model and vectorizer are saved as `.pkl` files for reuse. 
